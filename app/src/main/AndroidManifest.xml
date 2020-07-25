@@ -29,10 +29,6 @@
         <activity android:name=".EventGridActivity" />
         <activity android:name=".MainActivity" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCmpEE1wbPYPLUIodzL3T5P484f4cgpIm4" />
-
         <service
             android:name=".MyFirebaseMessagingService"
             android:exported="false">
